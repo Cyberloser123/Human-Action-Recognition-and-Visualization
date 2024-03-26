@@ -8,8 +8,9 @@ import mmcv
 import numpy as np
 from drawer import Visu3D
 from jumpDetect import JumpCounter
+import argparse
 
-videoPath = "./videos/test.mp4"
+videoPath = ""
 
 BOUNDING_BOX_SCALE_FACTOR = 0.7
 
@@ -239,5 +240,9 @@ def main():
     
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-i", dest="input", type=str, help="The path of the input video.")
+    args = parser.parse_args()
+    videoPath = args.input
     main()
     
