@@ -2,7 +2,9 @@
 
 Video Pose Extraction and 3D Skeleton Reconstruction is an innovative project that leverages state-of-the-art techniques in computer vision and 3D reconstruction to analyze human movements from video data. By combining the power of [MMpose](https://mmpose.readthedocs.io/en/latest/) for pose estimation and [Open3D](https://www.open3d.org/) for 3D visualization, this project offers a solution for understanding and visualizing human poses in three-dimensional space.
 
-![](https://i.imgur.com/VhMVNfb.gif)![](https://i.imgur.com/OUGw0G9.gif)
+<center class="half">
+<img src="https://i.imgur.com/VhMVNfb.gif" width="200"/><img src="https://i.imgur.com/OUGw0G9.gif" width="200"/> </center>
+
 
 ## Features
 - Video Pose Extraction: The project can process videos to extract human poses frame by frame.
